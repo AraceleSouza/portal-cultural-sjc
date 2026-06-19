@@ -1,4 +1,4 @@
-# 🎭 Portal Cultural de São José dos Campos
+#🎭 Portal Cultural de São José dos Campos
 
 Projeto desenvolvido como atividade de extensão do curso de Engenharia de Software, com o objetivo de promover a difusão cultural por meio da tecnologia.
 
@@ -6,13 +6,13 @@ O Portal Cultural de São José dos Campos é uma landing page responsiva criada
 
 ---
 
-##📌 Objetivo
+## 📌 Objetivo
 
 Desenvolver uma solução web que contribua para a divulgação da cultura do município de São José dos Campos, promovendo o acesso à informação e valorizando artistas, espaços culturais e eventos da região.
 
 ---
 
-##🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 * Página inicial moderna e responsiva
 * Menu de navegação com scroll suave
@@ -62,7 +62,7 @@ Promover o acesso da população a informações sobre oficinas, cursos e ativid
 
 Valorizar e divulgar o patrimônio cultural e as manifestações artísticas locais.
 
-### ODS 16 – Paz, Justiça e Instituições Eficazes
+### DS 16 – Paz, Justiça e Instituições Eficazes
 
 Ampliar o acesso público às informações culturais disponibilizadas pelas instituições do município.
 
