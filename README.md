@@ -1,4 +1,4 @@
-#🎭 Portal Cultural de São José dos Campos
+# 🎭 Portal Cultural de São José dos Campos
 
 Projeto desenvolvido como atividade de extensão do curso de Engenharia de Software, com o objetivo de promover a difusão cultural por meio da tecnologia.
 
