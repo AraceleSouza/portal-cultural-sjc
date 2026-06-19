@@ -1,0 +1,147 @@
+Ótima ideia colocar esse projeto no GitHub. Como você está buscando estágio em Dados & Performance e também quer mostrar habilidades em Desenvolvimento Web, um README bem escrito ajuda bastante recrutadores a entenderem o projeto.
+
+# 🎭 Portal Cultural de São José dos Campos
+
+Projeto desenvolvido como atividade de extensão do curso de Engenharia de Software, com o objetivo de promover a difusão cultural por meio da tecnologia.
+
+O Portal Cultural de São José dos Campos é uma landing page responsiva criada para reunir informações sobre eventos, espaços culturais, oficinas, projetos artísticos e iniciativas culturais do município, facilitando o acesso da população à cultura local.
+
+---
+
+## 📌 Objetivo
+
+Desenvolver uma solução web que contribua para a divulgação da cultura do município de São José dos Campos, promovendo o acesso à informação e valorizando artistas, espaços culturais e eventos da região.
+
+---
+
+## 🚀 Funcionalidades
+
+* Página inicial moderna e responsiva
+* Menu de navegação com scroll suave
+* Hero Section com destaque para a cidade
+* Barra de pesquisa visual
+* Seção de eventos culturais
+* Seção de formação artística
+* Espaços e iniciativas culturais
+* Destaques da semana
+* Footer completo com navegação e newsletter
+* Animações de entrada (Fade In)
+* Layout adaptado para Desktop, Tablet e Mobile
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript Vanilla
+* Font Awesome
+* Google Fonts (Poppins)
+
+---
+
+## 📚 Pesquisa e Fundamentação
+
+As informações culturais utilizadas no projeto foram baseadas em fontes públicas e institucionais do município de São José dos Campos.
+
+Principais referências:
+
+* Fundação Cultural Cassiano Ricardo (FCCR)
+* Prefeitura Municipal de São José dos Campos
+* Museu do Folclore de São José dos Campos
+
+---
+
+## 🎯 Objetivos de Desenvolvimento Sustentável (ODS)
+
+Este projeto está alinhado aos seguintes ODS da ONU:
+
+### ODS 4 – Educação de Qualidade
+
+Promover o acesso da população a informações sobre oficinas, cursos e atividades culturais.
+
+### ODS 11 – Cidades e Comunidades Sustentáveis
+
+Valorizar e divulgar o patrimônio cultural e as manifestações artísticas locais.
+
+### ODS 16 – Paz, Justiça e Instituições Eficazes
+
+Ampliar o acesso público às informações culturais disponibilizadas pelas instituições do município.
+
+---
+
+## 💻 Estrutura do Projeto
+
+```text
+projeto_portal_cultural/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── images/
+│   ├── arte-nos-bairros-sjc.png
+│   ├── eventos.png
+│   ├── FCCR-apresentacao-teatral-sjc.png
+│   ├── festidanca-sjc.png
+│   ├── festivale-sjc.png
+│   ├── pagina-inicial.png
+│   ├── sao-jose-dos-campos.png
+│   ├── teatro-municipal-sjc.png
+│   └── versao-mobile.png
+│
+└── README.md
+```
+
+---
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido seguindo os princípios de Design Responsivo:
+
+* Desktop
+* Tablet
+* Smartphone
+
+---
+
+## 📸 Capturas de Tela
+
+### Página Inicial
+
+![Home](imagens/pagina-inicial.png)
+
+### Seção de Eventos
+
+![Eventos](imagens/eventos.png)
+
+### Versão Mobile
+
+![Mobile](imagens/versao-mobile.png)
+
+---
+
+## 🎓 Projeto Acadêmico
+
+Este projeto foi desenvolvido como atividade extensionista do curso de Engenharia de Software, integrando conhecimentos de desenvolvimento web, pesquisa, usabilidade e responsabilidade social.
+
+---
+
+## 👩‍💻 Autora
+
+**Aracele Souza**
+
+Estudante de Engenharia de Software
+
+📌 Desenvolvimento Web
+📌 Análise de Dados
+📌 Automação de Processos
+
+Instagram: @aracelesouza.tech
+
+---
+
+## 📄 Licença
+
+Projeto desenvolvido para fins acadêmicos e educacionais.
+

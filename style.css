@@ -1,0 +1,603 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#F8FAFC;
+    color:#0F172A;
+    overflow-x:hidden;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#ffffff;
+    z-index:1000;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+}
+
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:85px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo span{
+    font-size:2rem;
+    font-weight:700;
+    color:#3B82F6;
+}
+
+.logo h3{
+    font-size:1rem;
+    font-weight:700;
+}
+
+.logo p{
+    font-size:0.8rem;
+    color:#64748B;
+}
+
+.menu{
+    display:flex;
+    gap:35px;
+}
+
+.menu a{
+    color:#0F172A;
+    font-weight:500;
+    transition:.3s;
+    position:relative;
+}
+
+.menu a:hover{
+    color:#3B82F6;
+}
+
+.menu a::after{
+    content:"";
+    position:absolute;
+    width:0;
+    height:2px;
+    left:0;
+    bottom:-6px;
+    background:#3B82F6;
+    transition:.3s;
+}
+
+.menu a:hover::after{
+    width:100%;
+}
+
+.menu-mobile{
+    display:none;
+    border:none;
+    background:none;
+    font-size:1.6rem;
+    cursor:pointer;
+    color:#0F172A;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+
+    background:
+    url('imagens/sao-jose-dos-campos.jpg')
+    center center/cover no-repeat;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(15,23,42,.65);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
+
+.hero h1{
+    color:#fff;
+    font-size:4rem;
+    line-height:1.1;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.hero p{
+    color:#fff;
+    font-size:1.2rem;
+    margin-bottom:40px;
+}
+
+/* ==========================
+   SEARCH BAR
+========================== */
+
+.search-bar{
+    background:#fff;
+    padding:15px;
+    border-radius:20px;
+
+    display:grid;
+    grid-template-columns:
+    2fr 1fr 1fr auto;
+
+    gap:15px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.search-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    padding:0 15px;
+}
+
+.search-item i{
+    color:#3B82F6;
+}
+
+.search-item input,
+.search-item select{
+    border:none;
+    width:100%;
+    outline:none;
+    font-family:'Poppins';
+    background:transparent;
+}
+
+.btn-search{
+    border:none;
+    background:#3B82F6;
+    color:white;
+    padding:15px 30px;
+    border-radius:12px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-search:hover{
+    background:#2563EB;
+    transform:translateY(-2px);
+}
+
+/* ==========================
+   FEATURES
+========================== */
+
+.features{
+    padding:100px 0;
+}
+
+.cards-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    padding:35px;
+    border-radius:24px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.icon{
+    width:80px;
+    height:80px;
+    border-radius:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.blue{
+    background:#DBEAFE;
+    color:#2563EB;
+}
+
+.orange{
+    background:#FFEDD5;
+    color:#F97316;
+}
+
+.cyan{
+    background:#CFFAFE;
+    color:#06B6D4;
+}
+
+.card h2{
+    margin-bottom:20px;
+    font-size:1.3rem;
+}
+
+.card ul{
+    margin-bottom:30px;
+}
+
+.card li{
+    padding:10px 0;
+    border-bottom:1px solid #E2E8F0;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.btn{
+    border:none;
+    color:white;
+    padding:14px 25px;
+    border-radius:12px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.btn-blue{
+    background:#3B82F6;
+}
+
+.btn-orange{
+    background:#F97316;
+}
+
+.btn-cyan{
+    background:#06B6D4;
+}
+
+/* ==========================
+   HIGHLIGHTS
+========================== */
+
+.highlights{
+    padding:40px 0 100px;
+}
+
+.section-title{
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:2rem;
+}
+
+.highlight-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+}
+
+.highlight-card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.highlight-card:hover{
+    transform:translateY(-8px);
+}
+
+.highlight-card img{
+    height:200px;
+    object-fit:cover;
+}
+
+.highlight-card .content{
+    padding:18px;
+}
+
+.highlight-card span{
+    background:#3B82F6;
+    color:white;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:.75rem;
+}
+
+.highlight-card h3{
+    margin:12px 0;
+    font-size:1rem;
+}
+
+.highlight-card p{
+    color:#64748B;
+    margin-bottom:5px;
+}
+
+.highlight-card small{
+    color:#94A3B8;
+}
+
+/* ==========================
+   ABOUT
+========================== */
+
+.about{
+    background:white;
+    padding:100px 0;
+}
+
+.about-content{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.about h2{
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.about p{
+    color:#64748B;
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+.footer{
+    background:#0F172A;
+    color:white;
+    padding-top:70px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:
+    2fr 1fr 1fr 1fr 1.5fr;
+    gap:40px;
+}
+
+.footer h4{
+    margin-bottom:20px;
+}
+
+.footer ul li{
+    margin-bottom:12px;
+    color:#CBD5E1;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.footer ul li:hover{
+    color:#3B82F6;
+}
+
+.footer p{
+    color:#CBD5E1;
+    margin-top:15px;
+}
+
+.footer-logo{
+    margin-bottom:20px;
+}
+
+.newsletter{
+    display:flex;
+    margin-top:15px;
+}
+
+.newsletter input{
+    flex:1;
+    border:none;
+    outline:none;
+    padding:14px;
+    border-radius:10px 0 0 10px;
+}
+
+.newsletter button{
+    border:none;
+    background:#3B82F6;
+    color:white;
+    padding:0 20px;
+    cursor:pointer;
+    border-radius:0 10px 10px 0;
+}
+
+.copyright{
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    border-top:1px solid rgba(255,255,255,.1);
+    color:#CBD5E1;
+}
+
+/* ==========================
+   ANIMAÇÕES
+========================== */
+
+.reveal{
+    opacity:0;
+    transform:translateY(50px);
+    transition:all .8s ease;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media(max-width:992px){
+
+    .hero h1{
+        font-size:3rem;
+    }
+
+    .cards-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .highlight-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .footer-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .search-bar{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .menu{
+        position:absolute;
+        top:85px;
+        left:-100%;
+        width:100%;
+        background:white;
+        flex-direction:column;
+        text-align:center;
+        padding:30px 0;
+        transition:.4s;
+    }
+
+    .menu.active{
+        left:0;
+    }
+
+    .menu-mobile{
+        display:block;
+    }
+
+    .hero{
+        padding:120px 0 80px;
+    }
+
+    .hero h1{
+        font-size:2.3rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .cards-grid{
+        grid-template-columns:1fr;
+    }
+
+    .highlight-grid{
+        grid-template-columns:1fr;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:25px;
+    }
+
+    .search-bar{
+        border-radius:15px;
+    }
+
+}
+
+/* ==========================
+   MOBILE PEQUENO
+========================== */
+
+@media(max-width:480px){
+
+    .hero h1{
+        font-size:1.9rem;
+    }
+
+    .search-item{
+        padding:0;
+    }
+
+    .btn-search{
+        width:100%;
+    }
+
+}
